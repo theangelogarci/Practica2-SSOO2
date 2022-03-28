@@ -12,7 +12,8 @@
 #include <functional>
 
 #include <colours.h>
-#include "WordSearched.cpp"
+#include "wordSearched.cpp"
+#include <definitions.h>
 
 void arguments_control(char *argv[],std::string &file, std::string &objective, int &nThreads);
 int number_of_lines(std::string file);
@@ -24,7 +25,7 @@ void printResult();
 
 std::mutex access;
 std::vector<std::thread> vThreads;
-std::map<int,std::vector<WordSearched>> vWords;
+std::map<int,std::vector<wordSearched>> vWords;
 
 int main(int argc, char *argv[]){
     std::string file;
