@@ -28,7 +28,7 @@ test2:
 	./$(DIREXE)ssooiigle "21-LEYES-DEL-LIDERAZGO.txt" del 1000
 
 test3:
-	./$(DIREXE)ssooiigle "17-LEYES-DEL-TRABJO-EN-EQUIPO.txt" ley 15
+	./$(DIREXE)ssooiigle "17-LEYES-DEL-TRABAJO-EN-EQUIPO.txt" ley 15
 
 clean :
 	rm -rf *~ core $(DIROBJ) $(DIREXE)
