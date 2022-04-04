@@ -26,7 +26,7 @@
 #include <definitions.h>
 
 #include <colours.h>
-#include "WordSearched.cpp"
+#include "wordSearched.cpp"
 
 void arguments_control(char *argv[],std::string &file, std::string &objective, int &nThreads);
 int number_of_lines(std::string file);

@@ -22,13 +22,13 @@ $(DIROBJ)%.o: $(DIRSRC)%.cpp
 	$(CC) $(CFLAGS) $^ -o $@ $(LDLIBS)
 
 test:
-	./$(DIREXE)ssooiigle "Prueba.txt" lineas 3
+	./$(DIREXE)ssooiigle "prueba.txt" david 3
 
 test2:
-	./$(DIREXE)ssooiigle "21 LEYES DEL LIDERAZGO - JOHN C. MAXWELL.txt" del 1000
+	./$(DIREXE)ssooiigle "21-LEYES-DEL-LIDERAZGO.txt" del 1000
 
 test3:
-	./$(DIREXE)ssooiigle "17 LEYES DEL TRABAJO EN EQUIPO.txt" ley 50
+	./$(DIREXE)ssooiigle "17-LEYES-DEL-TRABJO-EN-EQUIPO.txt" ley 15
 
 clean :
 	rm -rf *~ core $(DIROBJ) $(DIREXE)
